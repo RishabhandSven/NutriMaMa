@@ -1,0 +1,21 @@
+name: maternal_healthcare_system
+description: A maternal healthcare system for rural India
+publish_to: 'none'
+version: 1.0.0
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  provider: ^5.0.0
+  geolocator: ^7.1.0
+  flutter_form_builder: ^7.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
